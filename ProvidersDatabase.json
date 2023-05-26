@@ -1,0 +1,74 @@
+{
+  "Providers": {
+    "google": {
+			"Name": "google",
+			"UsingPkq" : true,
+			"UsingRecoveryMail" : true,	
+			"UsingRecoveryPhone" : true,
+			"UsingBackupCode" : true,
+			"usesRBA": true,
+			"uses2StepVerificationFA": true,
+			"providesServicesForMultipleDevices" : true	
+		},
+		"gmx": {
+			"Name": "gmx",
+			"UsingPkq" : true,
+			"UsingRecoveryMail" : true,
+			"UsingRecoveryPhone" : true,
+			"UsingBackupCode" : false,
+			"usesRBA": false,
+			"uses2StepVerificationFA": false,
+			"hostsMultipleServicesPerUser" : true	
+		},
+    "apple": {
+      "Name": "Apple",
+      "UsingPkq" : true,
+			"UsingRecoveryMail" : true,
+			"UsingRecoveryPhone" : true,
+			"UsingBackupCode" : true,
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "providesServicesForMultipleDevices": true
+    },
+    "microsoft": {
+      "Name": "Microsoft",
+      "UsingPkq" : true,
+			"UsingRecoveryMail" : true,
+			"UsingRecoveryPhone" : true,
+			"UsingBackupCode" : true,
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "providesServicesForMultipleDevices": true
+    },
+    "dkb": {
+      "Name": "DKB",
+      "UsingPkq" : true,
+			"UsingRecoveryMail" : true,
+			"UsingRecoveryPhone" : true,
+			"UsingBackupCode" : true,
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "hostsMultipleServicesPerUser": false
+    },
+    "amazon": {
+      "Name": "Amazon",
+      "UsingPkq" : true,
+			"UsingRecoveryMail" : true,
+			"UsingRecoveryPhone" : true,
+			"UsingBackupCode" : false,
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "hostsMultipleServicesPerUser": true
+    },
+    "ebay": {
+      "Name": "Ebay",
+      "UsingPkq" : true,
+			"UsingRecoveryMail" : true,
+			"UsingRecoveryPhone" : true,
+			"UsingBackupCode" : false,
+      "usesRBA": false,
+      "uses2StepVerificationFA": false,
+      "hostsMultipleServicesPerUser": false
+    }
+  }
+}

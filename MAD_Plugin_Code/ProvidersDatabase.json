@@ -1,0 +1,88 @@
+{
+  "Providers": {
+    "goolge": {
+      "Name": "Google",
+      "UsedFaMethods": [
+        "PKQ",
+        "RecoveryMail",
+        "RecoveryPhone",
+        "BackupCode"
+      ],
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "providesServicesForMultipleDevices": true
+    },
+    "apple": {
+      "Name": "Apple",
+      "UsedFaMethods": [
+        "PKQ",
+        "RecoveryMail",
+        "RecoveryPhone",
+        "BackupCode"
+      ],
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "providesServicesForMultipleDevices": true
+    },
+    "microsoft": {
+      "Name": "Microsoft",
+      "UsedFaMethods": [
+        "PKQ",
+        "RecoveryMail",
+        "RecoveryPhone",
+        "BackupCode"
+      ],
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "providesServicesForMultipleDevices": true
+    },
+    "gmx": {
+      "Name": "GMX",
+      "UsedFaMethods": [
+        "PKQ",
+        "RecoveryMail",
+        "RecoveryPhone"
+      ],
+      "usesRBA": false,
+      "uses2StepVerificationFA": false,
+      "hostsMultipleServicesPerUser": true
+    },
+    "dkb": {
+      "Name": "DKB",
+      "UsedFaMethods": [
+        "PKQ",
+        "RecoveryMail",
+        "RecoveryPhone",
+        "BackupCode"
+
+      ],
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "hostsMultipleServicesPerUser": false
+    },
+    "amazon": {
+      "Name": "Amazon",
+      "UsedFaMethods": [
+        "PKQ",
+        "RecoveryMail",
+        "RecoveryPhone"
+
+      ],
+      "usesRBA": true,
+      "uses2StepVerificationFA": true,
+      "hostsMultipleServicesPerUser": true
+    },
+    "ebay": {
+      "Name": "Ebay",
+      "UsedFaMethods": [
+        "PKQ",
+        "RecoveryMail",
+        "RecoveryPhone"
+
+      ],
+      "usesRBA": false,
+      "uses2StepVerificationFA": false,
+      "hostsMultipleServicesPerUser": false
+    }
+  }
+}
